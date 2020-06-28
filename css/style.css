@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    width:400px;
+    height:280px;
+    background-color: #00BC8C;
+    border:5px solid darkslategray;
+    border-radius: 50px;
+
+    margin:50px 300px;
+}
+
+#time{
+    height:80px;
+    margin:30px auto;
+    padding: 12px 112.5px;
+}
+#output{
+    font-size: 50px;
+    font-weight:800;
+    color:white;
+}
+
+#control{
+    height:80px;
+    margin:30px auto;
+    padding:15px 97px;
+}
+button{
+    background-color: darkslategrey;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 100px;
+    height:40px;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+#reset{
+
+}
+
+#anCar{
+   width:1000px;
+    height:400px;
+    position: relative;
+    background: darkgreen;
+
+}
+
+.animate{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: aqua;
+    /*margin: 65px 0;*/
+}
+#animate1{
+    background-image: url("../images/download.jpeg");
+    background-size: cover;
+}
+
+#animate2{
+    margin-top: 100px;
+    background-image: url("../images/manCar.gif");
+    background-size: cover;
+}
+
+#animate3{
+    margin-top:200px;
+    background-image: url("../images/img.gif");
+    background-size: cover;
+
+
+}
+#animate4{
+    margin-top:300px;
+    background-image: url("../images/exbike.gif");
+    background-size: cover;
+
+}
+
+
+.carImg{
+    display: flex;
+}
+
+.divImg{
+    margin-top: 100px;
+
+}
+.divImg img{
+    transform: rotate(90deg);
+    margin-left: -80px;
+}
+
+
